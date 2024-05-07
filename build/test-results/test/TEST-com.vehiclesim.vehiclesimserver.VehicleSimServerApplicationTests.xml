@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vehiclesim.vehiclesimserver.VehicleSimServerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-07T18:02:16" hostname="DESKTOP-IDC4P3M" time="0.616">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.vehiclesim.vehiclesimserver.VehicleSimServerApplicationTests" time="0.616"/>
+  <system-out><![CDATA[14:02:14.205 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.vehiclesim.vehiclesimserver.VehicleSimServerApplicationTests]: VehicleSimServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:02:14.286 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.vehiclesim.vehiclesimserver.VehicleSimServerApplication for test class com.vehiclesim.vehiclesimserver.VehicleSimServerApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-05-07T14:02:14.663-04:00  INFO 20224 --- [vehicle-sim-server] [    Test worker] c.v.v.VehicleSimServerApplicationTests   : Starting VehicleSimServerApplicationTests using Java 22.0.1 with PID 20224 (started by Stefan in D:\code\java\vehicle-sim-server)
+2024-05-07T14:02:14.665-04:00  INFO 20224 --- [vehicle-sim-server] [    Test worker] c.v.v.VehicleSimServerApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T14:02:15.111-04:00  INFO 20224 --- [vehicle-sim-server] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-05-07T14:02:15.126-04:00  INFO 20224 --- [vehicle-sim-server] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2024-05-07T14:02:15.896-04:00  INFO 20224 --- [vehicle-sim-server] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T14:02:16.056-04:00  INFO 20224 --- [vehicle-sim-server] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:b36a5ac3-2a7d-4879-9533-a2fcf08bb81c user=SA
+2024-05-07T14:02:16.058-04:00  INFO 20224 --- [vehicle-sim-server] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T14:02:16.218-04:00  INFO 20224 --- [vehicle-sim-server] [    Test worker] c.v.v.VehicleSimServerApplicationTests   : Started VehicleSimServerApplicationTests in 1.798 seconds (process running for 2.759)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Stefan\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.13\979ce25f7d3096a2e82214ba7dc972a05ce7a171\byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
