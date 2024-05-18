@@ -281,7 +281,6 @@ vehicle_year ,vehicle_make  ,vehicle_model                            ,body_styl
 1992         ,Volvo         ,740                                      ,"[""Wagon"", ""Sedan""]"
 1992         ,Volvo         ,940                                      ,"[""Sedan"", ""Wagon""]"
 1992         ,Volvo         ,960                                      ,"[""Sedan"", ""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 1993         ,Acura         ,Integra                                  ,"[""Hatchback"", ""Sedan""]"
 1993         ,Acura         ,Legend                                   ,"[""Sedan"", ""Coupe""]"
 1993         ,Acura         ,NSX                                      ,"[""Coupe""]"
@@ -573,7 +572,6 @@ year         ,make          ,model                                    ,body_styl
 1993         ,Volvo         ,850                                      ,"[""Sedan""]"
 1993         ,Volvo         ,940                                      ,"[""Sedan"", ""Wagon""]"
 1993         ,Volvo         ,960                                      ,"[""Sedan"", ""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 1994         ,Acura         ,Integra                                  ,"[""Hatchback"", ""Sedan""]"
 1994         ,Acura         ,Legend                                   ,"[""Coupe"", ""Sedan""]"
 1994         ,Acura         ,NSX                                      ,"[""Coupe""]"
@@ -835,7 +833,6 @@ year         ,make          ,model                                    ,body_styl
 1994         ,Volvo         ,850                                      ,"[""Wagon"", ""Sedan""]"
 1994         ,Volvo         ,940                                      ,"[""Sedan"", ""Wagon""]"
 1994         ,Volvo         ,960                                      ,"[""Sedan"", ""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 1995         ,Acura         ,Integra                                  ,"[""Sedan"", ""Hatchback""]"
 1995         ,Acura         ,Legend                                   ,"[""Coupe"", ""Sedan""]"
 1995         ,Acura         ,NSX                                      ,"[""Convertible""]"
@@ -1103,7 +1100,6 @@ year         ,make          ,model                                    ,body_styl
 1995         ,Volvo         ,850                                      ,"[""Wagon"", ""Sedan""]"
 1995         ,Volvo         ,940                                      ,"[""Sedan"", ""Wagon""]"
 1995         ,Volvo         ,960                                      ,"[""Sedan"", ""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 1996         ,Acura         ,Integra                                  ,"[""Sedan"", ""Hatchback""]"
 1996         ,Acura         ,NSX                                      ,"[""Coupe"", ""Convertible""]"
 1996         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -1365,7 +1361,6 @@ year         ,make          ,model                                    ,body_styl
 1996         ,Volkswagen    ,Passat                                   ,"[""Sedan"", ""Wagon""]"
 1996         ,Volvo         ,850                                      ,"[""Wagon"", ""Sedan""]"
 1996         ,Volvo         ,960                                      ,"[""Sedan"", ""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 1997         ,Acura         ,CL                                       ,"[""Coupe""]"
 1997         ,Acura         ,Integra                                  ,"[""Coupe"", ""Sedan""]"
 1997         ,Acura         ,NSX                                      ,"[""Coupe"", ""Convertible""]"
@@ -1631,7 +1626,6 @@ year         ,make          ,model                                    ,body_styl
 1997         ,Volvo         ,960                                      ,"[""Sedan"", ""Wagon""]"
 1997         ,Volvo         ,S90                                      ,"[""Sedan""]"
 1997         ,Volvo         ,V90                                      ,"[""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 1998         ,Acura         ,CL                                       ,"[""Coupe""]"
 1998         ,Acura         ,Integra                                  ,"[""Hatchback"", ""Sedan""]"
 1998         ,Acura         ,NSX                                      ,"[""Coupe"", ""Convertible""]"
@@ -1890,7 +1884,6 @@ year         ,make          ,model                                    ,body_styl
 1998         ,Volvo         ,S90                                      ,"[""Sedan""]"
 1998         ,Volvo         ,V70                                      ,"[""Wagon""]"
 1998         ,Volvo         ,V90                                      ,"[""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 1999         ,Acura         ,CL                                       ,"[""Coupe""]"
 1999         ,Acura         ,Integra                                  ,"[""Sedan"", ""Hatchback""]"
 1999         ,Acura         ,NSX                                      ,"[""Convertible"", ""Coupe""]"
@@ -2173,7 +2166,6 @@ year         ,make          ,model                                    ,body_styl
 1999         ,Volvo         ,S70                                      ,"[""Sedan""]"
 1999         ,Volvo         ,S80                                      ,"[""Sedan""]"
 1999         ,Volvo         ,V70                                      ,"[""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 2000         ,Acura         ,Integra                                  ,"[""Sedan"", ""Hatchback""]"
 2000         ,Acura         ,NSX                                      ,"[""Coupe"", ""Convertible""]"
 2000         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -2466,7 +2458,6 @@ year         ,make          ,model                                    ,body_styl
 2000         ,Volvo         ,S80                                      ,"[""Sedan""]"
 2000         ,Volvo         ,V40                                      ,"[""Wagon""]"
 2000         ,Volvo         ,V70                                      ,"[""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 2001         ,Acura         ,CL                                       ,"[""Coupe""]"
 2001         ,Acura         ,Integra                                  ,"[""Hatchback"", ""Sedan""]"
 2001         ,Acura         ,MDX                                      ,"[""SUV""]"
@@ -2767,7 +2758,6 @@ year         ,make          ,model                                    ,body_styl
 2001         ,Volvo         ,S80                                      ,"[""Sedan""]"
 2001         ,Volvo         ,V40                                      ,"[""Wagon""]"
 2001         ,Volvo         ,V70                                      ,"[""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 2002         ,Acura         ,CL                                       ,"[""Coupe""]"
 2002         ,Acura         ,MDX                                      ,"[""SUV""]"
 2002         ,Acura         ,NSX                                      ,"[""Coupe""]"
@@ -3077,7 +3067,6 @@ year         ,make          ,model                                    ,body_styl
 2002         ,Volvo         ,S80                                      ,"[""Sedan""]"
 2002         ,Volvo         ,V40                                      ,"[""Wagon""]"
 2002         ,Volvo         ,V70                                      ,"[""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 2003         ,Acura         ,CL                                       ,"[""Coupe""]"
 2003         ,Acura         ,MDX                                      ,"[""SUV""]"
 2003         ,Acura         ,NSX                                      ,"[""Coupe""]"
@@ -3389,7 +3378,6 @@ year         ,make          ,model                                    ,body_styl
 2003         ,Volvo         ,V70                                      ,"[""Wagon""]"
 2003         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2003         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2004         ,Acura         ,MDX                                      ,"[""SUV""]"
 2004         ,Acura         ,NSX                                      ,"[""Coupe""]"
 2004         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -3722,7 +3710,6 @@ year         ,make          ,model                                    ,body_styl
 2004         ,Volvo         ,V70                                      ,"[""Wagon""]"
 2004         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2004         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2005         ,Acura         ,MDX                                      ,"[""SUV""]"
 2005         ,Acura         ,NSX                                      ,"[""Coupe""]"
 2005         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -4065,7 +4052,6 @@ year         ,make          ,model                                    ,body_styl
 2005         ,Volvo         ,V70                                      ,"[""Wagon""]"
 2005         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2005         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2006         ,Acura         ,MDX                                      ,"[""SUV""]"
 2006         ,Acura         ,RL                                       ,"[""Sedan""]"
 2006         ,Acura         ,RSX                                      ,"[""Coupe""]"
@@ -4413,7 +4399,6 @@ year         ,make          ,model                                    ,body_styl
 2006         ,Volvo         ,V70                                      ,"[""Wagon""]"
 2006         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2006         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2007         ,Acura         ,MDX                                      ,"[""SUV""]"
 2007         ,Acura         ,RDX                                      ,"[""SUV""]"
 2007         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -4784,7 +4769,6 @@ year         ,make          ,model                                    ,body_styl
 2007         ,Volvo         ,V70                                      ,"[""Wagon""]"
 2007         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2007         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2008         ,Acura         ,MDX                                      ,"[""SUV""]"
 2008         ,Acura         ,RDX                                      ,"[""SUV""]"
 2008         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -5152,7 +5136,6 @@ year         ,make          ,model                                    ,body_styl
 2008         ,Volvo         ,V70                                      ,"[""Wagon""]"
 2008         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2008         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2009         ,Acura         ,MDX                                      ,"[""SUV""]"
 2009         ,Acura         ,RDX                                      ,"[""SUV""]"
 2009         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -5516,7 +5499,6 @@ year         ,make          ,model                                    ,body_styl
 2009         ,Volvo         ,V70                                      ,"[""Wagon""]"
 2009         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2009         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2010         ,Acura         ,MDX                                      ,"[""SUV""]"
 2010         ,Acura         ,RDX                                      ,"[""SUV""]"
 2010         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -5864,7 +5846,6 @@ year         ,make          ,model                                    ,body_styl
 2010         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2010         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2010         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2011         ,Acura         ,MDX                                      ,"[""SUV""]"
 2011         ,Acura         ,RDX                                      ,"[""SUV""]"
 2011         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -6213,7 +6194,6 @@ year         ,make          ,model                                    ,body_styl
 2011         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2011         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2011         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2012         ,Acura         ,MDX                                      ,"[""SUV""]"
 2012         ,Acura         ,RDX                                      ,"[""SUV""]"
 2012         ,Acura         ,RL                                       ,"[""Sedan""]"
@@ -6559,7 +6539,6 @@ year         ,make          ,model                                    ,body_styl
 2012         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2012         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2012         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2013         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2013         ,Acura         ,MDX                                      ,"[""SUV""]"
 2013         ,Acura         ,RDX                                      ,"[""SUV""]"
@@ -6914,7 +6893,6 @@ year         ,make          ,model                                    ,body_styl
 2013         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2013         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2013         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2014         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2014         ,Acura         ,MDX                                      ,"[""SUV""]"
 2014         ,Acura         ,RDX                                      ,"[""SUV""]"
@@ -7286,7 +7264,6 @@ year         ,make          ,model                                    ,body_styl
 2014         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2014         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2014         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2015         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2015         ,Acura         ,MDX                                      ,"[""SUV""]"
 2015         ,Acura         ,RDX                                      ,"[""SUV""]"
@@ -7678,7 +7655,6 @@ year         ,make          ,model                                    ,body_styl
 2015         ,Volvo         ,V60                                      ,"[""Wagon""]"
 2015         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2015         ,Volvo         ,XC70                                     ,"[""Wagon""]"
-year         ,make          ,model                                    ,body_styles
 2016         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2016         ,Acura         ,MDX                                      ,"[""SUV""]"
 2016         ,Acura         ,RDX                                      ,"[""SUV""]"
@@ -8083,7 +8059,6 @@ year         ,make          ,model                                    ,body_styl
 2016         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2016         ,Volvo         ,XC70                                     ,"[""Wagon""]"
 2016         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2017         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2017         ,Acura         ,MDX                                      ,"[""SUV""]"
 2017         ,Acura         ,MDX Sport Hybrid                         ,"[""SUV""]"
@@ -8530,7 +8505,6 @@ year         ,make          ,model                                    ,body_styl
 2017         ,Volvo         ,V90                                      ,"[""Wagon""]"
 2017         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2017         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2018         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2018         ,Acura         ,MDX                                      ,"[""SUV""]"
 2018         ,Acura         ,MDX Sport Hybrid                         ,"[""SUV""]"
@@ -8970,7 +8944,6 @@ year         ,make          ,model                                    ,body_styl
 2018         ,Volvo         ,V90                                      ,"[""Wagon""]"
 2018         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2018         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2019         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2019         ,Acura         ,MDX                                      ,"[""SUV""]"
 2019         ,Acura         ,MDX Sport Hybrid                         ,"[""SUV""]"
@@ -9437,7 +9410,6 @@ year         ,make          ,model                                    ,body_styl
 2019         ,Volvo         ,XC40                                     ,"[""SUV""]"
 2019         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2019         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2020         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2020         ,Acura         ,MDX                                      ,"[""SUV""]"
 2020         ,Acura         ,MDX Sport Hybrid                         ,"[""SUV""]"
@@ -9813,7 +9785,6 @@ year         ,make          ,model                                    ,body_styl
 2020         ,Volvo         ,XC40                                     ,"[""SUV""]"
 2020         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2020         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2021         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2021         ,Acura         ,NSX                                      ,"[""Coupe""]"
 2021         ,Acura         ,RDX                                      ,"[""SUV""]"
@@ -10264,7 +10235,6 @@ year         ,make          ,model                                    ,body_styl
 2021         ,Volvo         ,XC40 Recharge                            ,"[""SUV""]"
 2021         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2021         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2022         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2022         ,Acura         ,MDX                                      ,"[""SUV""]"
 2022         ,Acura         ,NSX                                      ,"[""Coupe""]"
@@ -10742,7 +10712,6 @@ year         ,make          ,model                                    ,body_styl
 2022         ,Volvo         ,XC40 Recharge                            ,"[""SUV""]"
 2022         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2022         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2023         ,Acura         ,ILX                                      ,"[""Sedan""]"
 2023         ,Acura         ,Integra                                  ,"[""Hatchback""]"
 2023         ,Acura         ,MDX                                      ,"[""SUV""]"
@@ -11099,7 +11068,6 @@ year         ,make          ,model                                    ,body_styl
 2023         ,Volvo         ,XC40 Recharge                            ,"[""SUV""]"
 2023         ,Volvo         ,XC60                                     ,"[""SUV""]"
 2023         ,Volvo         ,XC90                                     ,"[""SUV""]"
-year         ,make          ,model                                    ,body_styles
 2024         ,Acura         ,Integra                                  ,""
 2024         ,Acura         ,MDX                                      ,""
 2024         ,Acura         ,RDX                                      ,""
@@ -11543,7 +11511,6 @@ year         ,make          ,model                                    ,body_styl
 2024         ,Volvo         ,XC40 Recharge                            ,""
 2024         ,Volvo         ,XC60                                     ,""
 2024         ,Volvo         ,XC90                                     ,""
-year         ,make          ,model                                    ,body_styles
 2025         ,Audi          ,Q6 e-tron                                ,""
 2025         ,Cadillac      ,CT5                                      ,""
 2025         ,Cadillac      ,Escalade IQ                              ,""
@@ -11572,8 +11539,6 @@ year         ,make          ,model                                    ,body_styl
 2025         ,Volkswagen    ,ID.Buzz                                  ,""
 2025         ,Volvo         ,EX30                                     ,""
 2025         ,Volvo         ,EX90                                     ,""
-year         ,make          ,model                                    ,body_styles
 2026         ,Cadillac      ,Vistiq                                   ,""
 2026         ,Fisker        ,Pear                                     ,""
 2026         ,Fisker        ,Ronin                                    ,""
-
