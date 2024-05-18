@@ -1,4 +1,4 @@
-id,year,make,model,body_styles
+id,vehicle_year,vehicle_make,vehicle_model,body_styles
 1, 1997, Ford, E350, "2dr, 3dr, 4dr"
 2, 1997, Ford, E350, "2dr, 3dr, 4dr"
 3, 1997, Ford, E350, "2dr, 3dr, 4dr"

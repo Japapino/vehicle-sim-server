@@ -3,6 +3,8 @@ package com.vehiclesim.vehiclesimserver.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+
 @Table(name = "VEHICLES")
 public class Vehicle {
 
@@ -12,7 +14,9 @@ public class Vehicle {
     private String vehicle_make;
     private String vehicle_model;
     private String vehicle_year;
-    private String[] body_style;
+
+    @JsonValue
+    private String body_styles;
     
     public Long getId() {
         return id;
@@ -46,21 +50,22 @@ public class Vehicle {
         this.vehicle_year = year;
     }
 
-    public String[] getBody_style() {
-        return this.body_style;
+    public String getBody_styles() {
+        return this.body_styles;
     }
 
-    public void setBody_style(String[] body_style) {
-        this.body_style = body_style;
+    public void setBody_styles(String body_style) {
+        this.body_styles = body_style;
     }
 
     public Vehicle() {
     }
 
-    public Vehicle(Long id, String make, String model, String year) {
+    public Vehicle(Long id, String make, String model, String year, String body_styles) {
         this.id = id;
         this.vehicle_make = make;
         this.vehicle_model = model;
         this.vehicle_year = year;
+        this.body_styles = body_styles;
     }
 }
