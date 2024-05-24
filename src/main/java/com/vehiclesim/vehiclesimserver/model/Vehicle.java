@@ -1,6 +1,6 @@
 package com.vehiclesim.vehiclesimserver.model;
 
-import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 import com.fasterxml.jackson.annotation.JsonValue;
@@ -8,64 +8,57 @@ import com.fasterxml.jackson.annotation.JsonValue;
 @Table(name = "VEHICLES")
 public class Vehicle {
 
-    @Id
-    private Long id;
+    @Column("VEHICLE_YEAR")
+    private String vehicleYear;
+    @Column("VEHICLE_MAKE")
+    private String vehicleMake;
+    @Column("VEHICLE_MODEL")
+    private String vehicleModel;
 
-    private String vehicle_make;
-    private String vehicle_model;
-    private String vehicle_year;
-
+    @Column("BODY_STYLES")
     @JsonValue
-    private String body_styles;
-    
-    public Long getId() {
-        return id;
+    private String bodyStyles;
+
+    public String getVehicleMake() {
+        return vehicleMake;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setVehicleMake(String make) {
+        this.vehicleMake = make;
     }
 
-    public String getVehicle_make() {
-        return vehicle_make;
+    public String getVehicleModel() {
+        return vehicleModel;
     }
 
-    public void setVehicle_make(String make) {
-        this.vehicle_make = make;
+    public void setVehicleModel(String model) {
+        this.vehicleModel = model;
     }
 
-    public String getVehicle_model() {
-        return vehicle_model;
+    public String getVehicleYear() {
+        return vehicleYear;
     }
 
-    public void setVehicle_model(String model) {
-        this.vehicle_model = model;
+    public void setVehicleYear(String year) {
+        this.vehicleYear = year;
     }
 
-    public String getVehicle_year() {
-        return vehicle_year;
+    public String getBodyStyles() {
+        return this.bodyStyles;
     }
 
-    public void setVehicle_year(String year) {
-        this.vehicle_year = year;
-    }
-
-    public String getBody_styles() {
-        return this.body_styles;
-    }
-
-    public void setBody_styles(String body_style) {
-        this.body_styles = body_style;
+    public void setBodyStyles(String bodyStyle) {
+        this.bodyStyles = bodyStyle;
     }
 
     public Vehicle() {
     }
 
-    public Vehicle(Long id, String make, String model, String year, String body_styles) {
-        this.id = id;
-        this.vehicle_make = make;
-        this.vehicle_model = model;
-        this.vehicle_year = year;
-        this.body_styles = body_styles;
+    public Vehicle(String make, String model, String year, String bodyStyles) {
+
+        this.vehicleMake = make;
+        this.vehicleModel = model;
+        this.vehicleYear = year;
+        this.bodyStyles = bodyStyles;
     }
 }

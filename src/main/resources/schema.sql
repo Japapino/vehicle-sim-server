@@ -1,11 +1,8 @@
 create table if not exists vehicles (
-    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     vehicle_year varchar(255),
     vehicle_make varchar(255),
     vehicle_model varchar(255),
     body_styles varchar array[255]
 ) as 
 select *
-from csvread('1992.csv', null, 'charset=UTF-8');
-
-
+from csvread('data/vehicle_data.csv', null, 'charset=UTF-8');

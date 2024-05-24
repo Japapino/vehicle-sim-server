@@ -23,4 +23,9 @@ public class VehiclesController {
         return vehiclesService.getAll();
     };
 
+    @GetMapping("/vehicles/findByYear/{year}")
+    public Iterable<Vehicle> findByYear(String year) {
+        return vehiclesService.findByYear(year);
+    };
+
 }

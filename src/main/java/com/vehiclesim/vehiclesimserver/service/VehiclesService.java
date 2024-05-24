@@ -18,4 +18,8 @@ public class VehiclesService {
     public Iterable<Vehicle> getAll() {
         return vehiclesRepository.findAll();
     }
+
+    public Iterable<Vehicle> findByYear(String year) {
+        return vehiclesRepository.findByVehicleYear(year);
+    };
 }
